@@ -22,3 +22,7 @@ i18n
     }
   });
 export default i18n;
+
+export const tu = (ns, word) => {
+  return i18n.t([`${ns}.${word.toLowerCase()}`, word]);
+};

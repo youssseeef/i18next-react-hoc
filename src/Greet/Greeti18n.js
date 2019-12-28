@@ -4,9 +4,16 @@ import { withTranslation } from "react-i18next";
 
 class Greet extends Component {
   render() {
+    const {
+      utility: {
+        hello: { first },
+        where
+      }
+    } = this.props;
+
     return (
       <h1>
-        {this.props.utility.hello.first},{this.props.utility.where("Egypt")}
+        {first},{where("Egypt")}
       </h1>
     );
   }
