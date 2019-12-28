@@ -1,0 +1,14 @@
+{
+  "news": {
+    "title": "Breaking news"
+  },
+  "weather": {
+    "title": "Weather forecast"
+  },
+  "name": {
+    "first": "Youssef"
+  },
+  "country": {
+    "egypt": "Egypt"
+  }
+}

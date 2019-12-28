@@ -1,0 +1,14 @@
+{
+  "news": {
+    "title": "Наши новости"
+  },
+  "weather": {
+    "title": "Прогноз погоды"
+  },
+  "name": {
+    "first": "Юсеф"
+  },
+  "country": {
+    "egypt": "Egypt-russian"
+  }
+}
